@@ -1,0 +1,21 @@
+class GfG {
+    public static void main(String[] args) {
+        // number n for which we have to print the
+        // multiplication table.
+        int n = 7;
+
+        int range = 10;
+
+        // looping from 1 to range to print the
+        // multiplication table of the number.
+        int i = 1;
+
+        // using while loop
+        while (i <= range) {
+
+            // printing the n*i,ie ith multiple of N.
+            System.out.println(n + " * " + i + " = " + n * i);
+            i++;
+        }
+    }
+}
