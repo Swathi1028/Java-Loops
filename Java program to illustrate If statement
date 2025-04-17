@@ -1,0 +1,15 @@
+class GfG {
+    public static void main(String args[]) {
+        int i = 10;
+
+        if (i > 15)
+            System.out.println("Greater than 15");
+
+        // This statement will be executed
+        // as if considers one statement by default
+        System.out.println("I am not in if");
+    }
+}
+
+Output
+I am not in if
